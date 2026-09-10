@@ -1,7 +1,20 @@
 # Meteo România — date publice
 
 Artefactele publice ale sistemului de prognoză cu corecție locală
-pentru România (repo-ul de antrenare este privat):
+pentru România (repo-ul de antrenare este privat).
+
+## Aplicația Android
+
+**[Descarcă ultimul APK](../../releases/latest/download/meteo-romania.apk)**
+(sau vezi [toate versiunile](../../releases)). Instalare prin sideload
+(„instalare din surse necunoscute"); actualizările se instalează peste
+versiunea existentă — toate release-urile sunt semnate cu aceeași cheie.
+
+Prognoza vine de la Open-Meteo, iar corecția locală validată (tabelul
+de mai jos) se aplică pe telefon: temperatură, vânt, min/max zilnic,
+probabilitate de ploaie calibrată și bandă de încredere măsurată.
+
+## Datele
 
 - **`blend_v1.json`** — tabelul de corecție: bias per stație
   (lună × bloc de 3h, UTC) pentru ICON-EU / ECMWF IFS / GFS plus
